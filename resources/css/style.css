@@ -9,6 +9,7 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'PT Sans', sans-serif;    
 }
 
 .content {
@@ -18,12 +19,36 @@ body {
     border: 20px solid #fff;
 }
 
+.link-to-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.link-to-info:hover {
+    border-bottom: 1px solid #fff;
+}
+
 .web-box {
+    position: relative;
     height: 250px;
-    background-color: #B8D416;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/web.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 
 .design-box {
+    position: relative;
     height: 250px;
-    background-color: #9727A1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/design.jpeg");
+    background-size: cover;
+    background-position: center;
 }
