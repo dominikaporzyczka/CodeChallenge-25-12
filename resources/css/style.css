@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("img/brown-wood.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content {
+    margin: 30px auto;
+    max-width: 800px;
+    height: 540px;
+    border: 20px solid #fff;
+}
+
+.web-box {
+    height: 250px;
+    background-color: #B8D416;
+}
+
+.design-box {
+    height: 250px;
+    background-color: #9727A1;
+}
