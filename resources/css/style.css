@@ -85,5 +85,9 @@ body {
 }
 
 .yellow {
-    background-image: linear-gradient(rgba(241, 196, 15, 0.6), rgba(241, 196, 15, 0.6)), url("img/design.jpeg");
+    background-image: linear-gradient(rgba(225, 198, 58, 0.7), rgba(225, 198, 58, 0.7)), url("img/design.jpeg");
+}
+
+.active {
+    visibility: hidden;
 }
