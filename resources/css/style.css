@@ -19,7 +19,7 @@ body {
     border: 20px solid #fff;
 }
 
-.link-to-info {
+.link-to-short-info {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,7 +33,7 @@ body {
     transition: border-bottom 0.2s;
 }
 
-.link-to-info:hover {
+.link-to-short-info:hover {
     border-bottom: 1px solid #fff;
 }
 
@@ -51,4 +51,39 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/design.jpeg");
     background-size: cover;
     background-position: center;
+}
+
+
+/*----CONTENT AFTER CLICK-----*/
+
+.short-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 660px;
+    height: 150px;
+    text-align: center;
+    padding: 30px 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+
+.short-info p {
+    margin-bottom: 10px;
+}
+
+.link-for-more-info {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+
+.orange {
+    background-image: linear-gradient(rgba(230, 126, 34, 0.5), rgba(230, 126, 34, 0.5)), url("img/web.jpeg");
+}
+
+.yellow {
+    background-image: linear-gradient(rgba(241, 196, 15, 0.6), rgba(241, 196, 15, 0.6)), url("img/design.jpeg");
 }
